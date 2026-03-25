@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCA Student Portal - Vinothini</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f6f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BCA Student Portal</h1>
+  <p>Welcome to Vinothini's Learning Hub</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <div id="home" class="card">
+    <h2>Home</h2>
+    <p>This website is designed for BCA students to access study materials, notes, and resources.</p>
+  </div>
+
+  <div id="about" class="card">
+    <h2>About Vinothini</h2>
+    <p>Name: Vinothini</p>
+    <p>Course: Bachelor of Computer Applications (BCA)</p>
+    <p>This portal helps students learn programming, networking, and data analysis.</p>
+  </div>
+
+  <div id="courses" class="card">
+    <h2>Courses</h2>
+    <ul>
+      <li>Programming in C, C++, Python</li>
+      <li>Database Management Systems</li>
+      <li>Computer Networks</li>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>Cloud Computing Basics</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Phone: 9894205349</p>
+    <p>Email: vinumadesh.05@gmail.com</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Vinothini | BCA Student Portal</p>
+</footer>
+
+</body>
+</html>
